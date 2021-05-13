@@ -1,0 +1,15 @@
+{
+  "name": "Bobarr API GraphQL Schema",
+  "schemaPath": "./resources/bobarr-api-schema.gql",
+  "extensions": {
+    "endpoints": {
+      "Default GraphQL Endpoint": {
+        "url": "http://10.10.1.18:4000/graphql",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
